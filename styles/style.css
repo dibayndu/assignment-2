@@ -10,6 +10,8 @@ body{
 .container-one{
     display: flex;
     background-color: #2D25A0;
+    justify-content: space-between;
+    
     
 }
 .blog-1-tittle{
@@ -34,6 +36,9 @@ margin-left: 156px;
     font-size: 16px;
     font-weight: 500;
 }
+.blog-1-banner{
+    
+}
 .blog-1-banner img{
     width: 556.01px;
     height: 438px;
@@ -41,9 +46,10 @@ margin-left: 156px;
     margin-top: 153px;
     object-fit: contain;
     
+    
 }
 .blog-1-banner:hover {
-    transform: scale(1.5);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
     transition: transform 2s ease-in-out;
     
 }
@@ -69,10 +75,14 @@ margin-left: 156px;
     background-color: #FFFFFF;
     box-shadow: 0 0 40px rgba(0,0,0,0.15);
     padding: 15px;
+    border-radius: 10px;
 }
+
 .player-img img{
     width: 324px;
 height: 256px;
+border-radius: 10px;
+
 }
 .player-name{
     color: #18191F;
@@ -85,20 +95,64 @@ height: 256px;
     color: #6C6C6C;
 }
 
+/* winner-album-styles  */
+.winner{
+    text-align: center;
+    margin-top: 50px;
+}
+.photo-album{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
+.photo-frame{
+    width: 300px;
+    height: 200px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    position: relative;
+    margin: 10px;
+}
+.photo img{
+    width: 100%;
+    border-radius: 10px;
+}
+.photo-detail{
+    display: none;
+    position: absolute;
+    width: 300px;
+    top: 0;
+}
+.photo-frame:hover .photo-detail{
+    display: block;
+    background-color: rgba(180, 179, 175, 0.7);
+}
+.photo-detail h3{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.photo-detail p{
+    color: white;
+    text-align: center;
+}
 
 /* footer-styles  */
 .last-container{
-    width: 483.87px;
-    height: 213px;
-    margin-top: 158px;
-    
-    
-    
-}
+  margin-top: 150px;
+    }
+    .last-part{
+        
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    }
 .last-part-img img{
     width: 483.87px;
     height: 110px;
+    
 
 }
 .icon{
@@ -120,3 +174,7 @@ height: 256px;
     font-size: 18px;
     align-items: center;
 }
+
+
+
+
