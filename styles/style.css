@@ -24,20 +24,20 @@ body{
     font-weight: 700px;
     color: #FFFF;
 }
-.blog-1 a{
+.blog-1 button{
     width: 168px;
     height: 44px;
     padding: 10px 24px 10px 24px;
     background-color: #E02C6D;
-margin-left: 156px;
+    margin-left: 156px;
     margin-top: 27px;
     color: white;
     text-decoration: none;
     font-size: 16px;
     font-weight: 500;
 }
-.blog-1-banner{
-    
+.fas {
+    margin-left: 8px;
 }
 .blog-1-banner img{
     width: 556.01px;
@@ -95,10 +95,30 @@ border-radius: 10px;
     color: #6C6C6C;
 }
 
+/* copa-america-cup-styles.....---- */
+.cup-container{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 25px;
+}
+.cup-container h2{
+    text-align: center;
+    color: rgba(9, 19, 148, 0.801);
+}
+.copa-cup img:hover{
+   
+    transform: rotate(360deg);
+    transition: transform 2s ease-in-out;
+}
+
 /* winner-album-styles  */
 .winner{
     text-align: center;
     margin-top: 50px;
+}
+.winner h3{
+    color: rgba(9, 19, 148, 0.801);
 }
 .photo-album{
     display:flex;
@@ -178,3 +198,8 @@ border-radius: 10px;
 
 
 
+/* media query */
+/* for screen size 688px */
+@media only screen and (max-width: 688px) {
+    
+     
