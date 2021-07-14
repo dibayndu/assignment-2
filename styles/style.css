@@ -1,0 +1,122 @@
+/* font-style */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+/* common-styles  */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* blog-1-style-start  */
+.container-one{
+    display: flex;
+    background-color: #2D25A0;
+    
+}
+.blog-1-tittle{
+    width: 485px;
+    height: 230px;
+    margin-top: 207px;
+    margin-left: 156px;
+    
+    font-size: 64px;
+    font-weight: 700px;
+    color: #FFFF;
+}
+.blog-1 a{
+    width: 168px;
+    height: 44px;
+    padding: 10px 24px 10px 24px;
+    background-color: #E02C6D;
+margin-left: 156px;
+    margin-top: 27px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+.blog-1-banner img{
+    width: 556.01px;
+    height: 438px;
+    
+    margin-top: 153px;
+    object-fit: contain;
+    
+}
+.blog-1-banner:hover {
+    transform: scale(1.5);
+    transition: transform 2s ease-in-out;
+    
+}
+
+/* blog-2-start  */
+.container-two{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.all-players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 27px;
+    grid-column-gap:30px; 
+}
+.player{
+    
+    width: 330px;
+    height: 474px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 40px rgba(0,0,0,0.15);
+    padding: 15px;
+}
+.player-img img{
+    width: 324px;
+height: 256px;
+}
+.player-name{
+    color: #18191F;
+    font-size: 28px;
+}
+.player-detail{
+    font-weight: 400;
+    width: 300px;
+    height: 104px;
+    color: #6C6C6C;
+}
+
+
+
+/* footer-styles  */
+.last-container{
+    width: 483.87px;
+    height: 213px;
+    margin-top: 158px;
+    
+    
+    
+}
+.last-part-img img{
+    width: 483.87px;
+    height: 110px;
+
+}
+.icon{
+    width: 170px;
+    height: 32px;
+    text-align: center;
+}
+.icon-tag{
+    color: #969BAB;
+    width: 17.07px;
+    height: 7.47px;
+    margin-top: 7.47px;
+    margin-left: 7.47px;
+    
+}
+.last-line{
+    width: 236px;
+    height: 31px;
+    font-size: 18px;
+    align-items: center;
+}
