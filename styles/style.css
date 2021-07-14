@@ -15,8 +15,7 @@ body{
     
 }
 .blog-1-tittle{
-    width: 485px;
-    height: 230px;
+    
     margin-top: 207px;
     margin-left: 156px;
     
@@ -25,8 +24,7 @@ body{
     color: #FFFF;
 }
 .blog-1 button{
-    width: 168px;
-    height: 44px;
+    
     padding: 10px 24px 10px 24px;
     background-color: #E02C6D;
     margin-left: 156px;
@@ -70,8 +68,7 @@ body{
 }
 .player{
     
-    width: 330px;
-    height: 474px;
+    
     background-color: #FFFFFF;
     box-shadow: 0 0 40px rgba(0,0,0,0.15);
     padding: 15px;
@@ -202,4 +199,46 @@ border-radius: 10px;
 /* for screen size 688px */
 @media only screen and (max-width: 688px) {
     
-     
+     .container-one{
+         display: block;
+         position: relative;
+         overflow-x: hidden;
+         width: fit-content;
+     }
+     .blog-1-tittle{
+         
+        margin-top: 207px;
+        margin-left: 37px;
+        font-size: 64px;
+        font-weight: 700px;
+        color: #FFFF;
+     }
+     .blog-1-banner img{
+         width: 419.01px;
+         margin-top: 153px;
+         object-fit: contain;
+     }
+     .blog-1 button {
+        padding: 10px 24px 10px 24px;
+        background-color: #E02C6D;
+        margin-left: 76px;
+        margin-top: 27px;
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 500;
+     }
+     .all-players{
+         display: block;
+
+     }
+     .player{
+         margin-bottom: 20px;
+     }
+.copa-cup img{
+    width: 100%;
+}
+     .last-part-img img {
+        width: 322.87px;
+        height: 110px;
+     }
